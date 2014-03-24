@@ -1,0 +1,15 @@
+﻿"modified" =  "modificado";
+"added" =  "adicionado"; 
+"removed" =  "removido";
+"deleted" =  "deletado"; 
+"unknown" =  "desconhecido"; 
+"ignored" =  "ignorado";
+"clean" =  "limpo";
+
+"ERROR" = "ERRO";
+
+"An error occurred while creating Mercurial repository!"="Ocorreu um erro ao criar o repositório do Mercurial!";
+"The selected directory/file doesn't belongs to a valid Mercurial repository!"="A pasta/arquivo selecionado(a) não pertence à um repositório válido do Mercurial!";
+"Repository created sucessfully!"="Repositório criado com sucesso!";
+"Please select a directory/file on Finder!" = "Por favor, selecione uma pasta/arquivo no Finder!";
+"Repository already exists!" = "Repositório já existe!";

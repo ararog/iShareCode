@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480F6266105C431200505DE7 /* ServicesMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 480F6265105C431200505DE7 /* ServicesMenu.strings */; };
+		480F626B105C44D200505DE7 /* CommitWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480F626A105C44D200505DE7 /* CommitWindow.xib */; };
+		480F62A8105C468C00505DE7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 480F62A7105C468C00505DE7 /* Localizable.strings */; };
+		480F62B6105C4A0800505DE7 /* CreateWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480F62B5105C4A0800505DE7 /* CreateWindow.xib */; };
+		480F62B9105C4A1E00505DE7 /* CloneWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480F62B8105C4A1E00505DE7 /* CloneWindow.xib */; };
+		480F62BC105C4A3100505DE7 /* IgnoreWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480F62BB105C4A3100505DE7 /* IgnoreWindow.xib */; };
+		480F62BF105C4A4200505DE7 /* SynchronizeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480F62BE105C4A4200505DE7 /* SynchronizeWindow.xib */; };
+		4884EB591052E2C200B33CA0 /* CloneController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4884EB581052E2C200B33CA0 /* CloneController.py */; };
+		4884EB5B1052E2D400B33CA0 /* CreateController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4884EB5A1052E2D400B33CA0 /* CreateController.py */; };
+		4884EBFD10532FBD00B33CA0 /* IgnoreController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4884EBFC10532FBD00B33CA0 /* IgnoreController.py */; };
+		48AB678A1052A3AA00538C11 /* 8448_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67871052A3AA00538C11 /* 8448_128x128.png */; };
+		48AB678B1052A3AA00538C11 /* 8449_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67881052A3AA00538C11 /* 8449_128x128.png */; };
+		48AB678C1052A3AA00538C11 /* 8454_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67891052A3AA00538C11 /* 8454_128x128.png */; };
+		48AB678E1052A48900538C11 /* 8440_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB678D1052A48900538C11 /* 8440_128x128.png */; };
+		48AB67911052A5A000538C11 /* 8438_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB678F1052A5A000538C11 /* 8438_128x128.png */; };
+		48AB67921052A5A000538C11 /* 8450_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67901052A5A000538C11 /* 8450_128x128.png */; };
+		48AB67941052A60500538C11 /* 8412_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67931052A60500538C11 /* 8412_128x128.png */; };
+		48AB67C11052ABE000538C11 /* SynchronizeController.py in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67C01052ABE000538C11 /* SynchronizeController.py */; };
+		48AB67C91052AFD300538C11 /* 8424_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67C81052AFD300538C11 /* 8424_128x128.png */; };
+		48AB67CD1052B1E700538C11 /* 2925_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67CA1052B1E700538C11 /* 2925_128x128.png */; };
+		48AB67CE1052B1E700538C11 /* 2928_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67CB1052B1E700538C11 /* 2928_128x128.png */; };
+		48AB67CF1052B1E700538C11 /* 7785_64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AB67CC1052B1E700538C11 /* 7785_64x64.png */; };
+		48C0C6BF1051EDDC007F02D0 /* Services.py in Resources */ = {isa = PBXBuildFile; fileRef = 48C0C6BE1051EDDC007F02D0 /* Services.py */; };
+		48CDD85D1051DCB900909FA8 /* Resource.py in Resources */ = {isa = PBXBuildFile; fileRef = 48CDD85C1051DCB900909FA8 /* Resource.py */; };
+		48CDD8611051DEF000909FA8 /* CommitController.py in Resources */ = {isa = PBXBuildFile; fileRef = 48CDD8601051DEF000909FA8 /* CommitController.py */; };
+		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
+		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* IShareCode_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IShareCode_Prefix.pch; sourceTree = "<group>"; };
+		480F6263105C430900505DE7 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		480F6267105C431B00505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		480F626C105C44DC00505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/CommitWindow.xib; sourceTree = "<group>"; };
+		480F62A5105C467D00505DE7 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		480F62A9105C469500505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		480F62B7105C4A1300505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/CreateWindow.xib; sourceTree = "<group>"; };
+		480F62BA105C4A2800505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/CloneWindow.xib; sourceTree = "<group>"; };
+		480F62BD105C4A3900505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/IgnoreWindow.xib; sourceTree = "<group>"; };
+		480F62C0105C4A4900505DE7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/SynchronizeWindow.xib; sourceTree = "<group>"; };
+		4884EB581052E2C200B33CA0 /* CloneController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CloneController.py; sourceTree = "<group>"; };
+		4884EB5A1052E2D400B33CA0 /* CreateController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CreateController.py; sourceTree = "<group>"; };
+		4884EB5C1052E2EA00B33CA0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CreateWindow.xib; sourceTree = "<group>"; };
+		4884EB5E1052E2F700B33CA0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CloneWindow.xib; sourceTree = "<group>"; };
+		4884EBFC10532FBD00B33CA0 /* IgnoreController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = IgnoreController.py; sourceTree = "<group>"; };
+		4884EBFE10532FD800B33CA0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/IgnoreWindow.xib; sourceTree = "<group>"; };
+		48AB67871052A3AA00538C11 /* 8448_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8448_128x128.png; sourceTree = "<group>"; };
+		48AB67881052A3AA00538C11 /* 8449_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8449_128x128.png; sourceTree = "<group>"; };
+		48AB67891052A3AA00538C11 /* 8454_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8454_128x128.png; sourceTree = "<group>"; };
+		48AB678D1052A48900538C11 /* 8440_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8440_128x128.png; sourceTree = "<group>"; };
+		48AB678F1052A5A000538C11 /* 8438_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8438_128x128.png; sourceTree = "<group>"; };
+		48AB67901052A5A000538C11 /* 8450_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8450_128x128.png; sourceTree = "<group>"; };
+		48AB67931052A60500538C11 /* 8412_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8412_128x128.png; sourceTree = "<group>"; };
+		48AB67C01052ABE000538C11 /* SynchronizeController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = SynchronizeController.py; sourceTree = "<group>"; };
+		48AB67C21052ABFA00538C11 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SynchronizeWindow.xib; sourceTree = "<group>"; };
+		48AB67C81052AFD300538C11 /* 8424_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8424_128x128.png; sourceTree = "<group>"; };
+		48AB67CA1052B1E700538C11 /* 2925_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2925_128x128.png; sourceTree = "<group>"; };
+		48AB67CB1052B1E700538C11 /* 2928_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2928_128x128.png; sourceTree = "<group>"; };
+		48AB67CC1052B1E700538C11 /* 7785_64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7785_64x64.png; sourceTree = "<group>"; };
+		48C0C6BE1051EDDC007F02D0 /* Services.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Services.py; sourceTree = "<group>"; };
+		48CDD85C1051DCB900909FA8 /* Resource.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Resource.py; sourceTree = "<group>"; };
+		48CDD8601051DEF000909FA8 /* CommitController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CommitController.py; sourceTree = "<group>"; };
+		48CDD8621051DF1F00909FA8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CommitWindow.xib; sourceTree = "<group>"; };
+		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* IShareCode.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IShareCode.service; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				77631A270C06C501005415CB /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48CDD85C1051DCB900909FA8 /* Resource.py */,
+				48CDD8601051DEF000909FA8 /* CommitController.py */,
+				48C0C6BE1051EDDC007F02D0 /* Services.py */,
+				48AB67C01052ABE000538C11 /* SynchronizeController.py */,
+				4884EB581052E2C200B33CA0 /* CloneController.py */,
+				4884EB5A1052E2D400B33CA0 /* CreateController.py */,
+				4884EBFC10532FBD00B33CA0 /* IgnoreController.py */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77631A260C06C501005415CB /* Python.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* IShareCode.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IShareCode */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = IShareCode;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* IShareCode_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				77631A3E0C0748CF005415CB /* main.py */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				480F62A7105C468C00505DE7 /* Localizable.strings */,
+				48AB67CA1052B1E700538C11 /* 2925_128x128.png */,
+				48AB67CB1052B1E700538C11 /* 2928_128x128.png */,
+				48AB67CC1052B1E700538C11 /* 7785_64x64.png */,
+				48AB67C81052AFD300538C11 /* 8424_128x128.png */,
+				48AB67931052A60500538C11 /* 8412_128x128.png */,
+				48AB678F1052A5A000538C11 /* 8438_128x128.png */,
+				48AB67901052A5A000538C11 /* 8450_128x128.png */,
+				48AB678D1052A48900538C11 /* 8440_128x128.png */,
+				48AB67871052A3AA00538C11 /* 8448_128x128.png */,
+				48AB67881052A3AA00538C11 /* 8449_128x128.png */,
+				48AB67891052A3AA00538C11 /* 8454_128x128.png */,
+				480F626A105C44D200505DE7 /* CommitWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				480F62BE105C4A4200505DE7 /* SynchronizeWindow.xib */,
+				480F62B5105C4A0800505DE7 /* CreateWindow.xib */,
+				480F62B8105C4A1E00505DE7 /* CloneWindow.xib */,
+				480F62BB105C4A3100505DE7 /* IgnoreWindow.xib */,
+				480F6265105C431200505DE7 /* ServicesMenu.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* IShareCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IShareCode" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IShareCode;
+			productInstallPath = "$(HOME)/Applications";
+			productName = IShareCode;
+			productReference = 8D1107320486CEB800E47090 /* IShareCode.service */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IShareCode" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				pt,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IShareCode */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* IShareCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				77631A3F0C0748CF005415CB /* main.py in Resources */,
+				48CDD85D1051DCB900909FA8 /* Resource.py in Resources */,
+				48CDD8611051DEF000909FA8 /* CommitController.py in Resources */,
+				480F626B105C44D200505DE7 /* CommitWindow.xib in Resources */,
+				48C0C6BF1051EDDC007F02D0 /* Services.py in Resources */,
+				48AB678A1052A3AA00538C11 /* 8448_128x128.png in Resources */,
+				48AB678B1052A3AA00538C11 /* 8449_128x128.png in Resources */,
+				48AB678C1052A3AA00538C11 /* 8454_128x128.png in Resources */,
+				48AB678E1052A48900538C11 /* 8440_128x128.png in Resources */,
+				48AB67911052A5A000538C11 /* 8438_128x128.png in Resources */,
+				48AB67921052A5A000538C11 /* 8450_128x128.png in Resources */,
+				48AB67941052A60500538C11 /* 8412_128x128.png in Resources */,
+				48AB67C11052ABE000538C11 /* SynchronizeController.py in Resources */,
+				480F62BF105C4A4200505DE7 /* SynchronizeWindow.xib in Resources */,
+				48AB67C91052AFD300538C11 /* 8424_128x128.png in Resources */,
+				48AB67CD1052B1E700538C11 /* 2925_128x128.png in Resources */,
+				48AB67CE1052B1E700538C11 /* 2928_128x128.png in Resources */,
+				48AB67CF1052B1E700538C11 /* 7785_64x64.png in Resources */,
+				4884EB591052E2C200B33CA0 /* CloneController.py in Resources */,
+				4884EB5B1052E2D400B33CA0 /* CreateController.py in Resources */,
+				480F62B6105C4A0800505DE7 /* CreateWindow.xib in Resources */,
+				480F62B9105C4A1E00505DE7 /* CloneWindow.xib in Resources */,
+				4884EBFD10532FBD00B33CA0 /* IgnoreController.py in Resources */,
+				480F62BC105C4A3100505DE7 /* IgnoreWindow.xib in Resources */,
+				480F6266105C431200505DE7 /* ServicesMenu.strings in Resources */,
+				480F62A8105C468C00505DE7 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		480F6265105C431200505DE7 /* ServicesMenu.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480F6263105C430900505DE7 /* English */,
+				480F6267105C431B00505DE7 /* pt */,
+			);
+			name = ServicesMenu.strings;
+			sourceTree = "<group>";
+		};
+		480F626A105C44D200505DE7 /* CommitWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48CDD8621051DF1F00909FA8 /* English */,
+				480F626C105C44DC00505DE7 /* pt */,
+			);
+			name = CommitWindow.xib;
+			sourceTree = "<group>";
+		};
+		480F62A7105C468C00505DE7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480F62A5105C467D00505DE7 /* English */,
+				480F62A9105C469500505DE7 /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		480F62B5105C4A0800505DE7 /* CreateWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4884EB5C1052E2EA00B33CA0 /* English */,
+				480F62B7105C4A1300505DE7 /* pt */,
+			);
+			name = CreateWindow.xib;
+			sourceTree = "<group>";
+		};
+		480F62B8105C4A1E00505DE7 /* CloneWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4884EB5E1052E2F700B33CA0 /* English */,
+				480F62BA105C4A2800505DE7 /* pt */,
+			);
+			name = CloneWindow.xib;
+			sourceTree = "<group>";
+		};
+		480F62BB105C4A3100505DE7 /* IgnoreWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4884EBFE10532FD800B33CA0 /* English */,
+				480F62BD105C4A3900505DE7 /* pt */,
+			);
+			name = IgnoreWindow.xib;
+			sourceTree = "<group>";
+		};
+		480F62BE105C4A4200505DE7 /* SynchronizeWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48AB67C21052ABFA00538C11 /* English */,
+				480F62C0105C4A4900505DE7 /* pt */,
+			);
+			name = SynchronizeWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IShareCode_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				PRODUCT_NAME = IShareCode;
+				WRAPPER_EXTENSION = service;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IShareCode_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = IShareCode;
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IShareCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IShareCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
